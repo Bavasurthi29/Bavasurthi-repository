@@ -1,49 +1,49 @@
+/* Set full-page background */
 body {
-    font-family: Arial, sans-serif;
+    background: url('background.jpg') no-repeat center center fixed;
+    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #f4f4f4;
     margin: 0;
+    font-family: Arial, sans-serif;
 }
 
+/* Login container styling */
 .login-container {
-    background: white;
+    background: rgba(255, 255, 255, 0.2); /* Semi-transparent white */
     padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
     text-align: center;
     width: 300px;
 }
 
-h2 {
-    margin-bottom: 20px;
-}
-
+/* Input field styles */
 .input-group {
     margin-bottom: 15px;
     text-align: left;
 }
 
-label {
+.input-group label {
     display: block;
     font-weight: bold;
-    margin-bottom: 5px;
 }
 
-input {
+.input-group input {
     width: 100%;
     padding: 8px;
-    border: 1px solid #ccc;
+    border: 1px solid #ddd;
     border-radius: 5px;
 }
 
+/* Button styling */
 button {
     width: 100%;
     padding: 10px;
+    background: #007BFF;
     border: none;
-    background: #007bff;
     color: white;
     font-size: 16px;
     border-radius: 5px;
@@ -53,3 +53,4 @@ button {
 button:hover {
     background: #0056b3;
 }
+
